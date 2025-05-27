@@ -1,0 +1,45 @@
+.contact-main {
+    display: flex;
+    padding-inline: 10vw;
+    margin-block: 50px;
+}
+.contact-content {
+    min-width: 30vw;
+}
+.contact-inputs {
+    max-width: 65vw;
+}
+.input-contact {
+    width: 200px;
+    height: 38px;
+    background-color: rgb(236, 230, 230);
+    border: none;
+    outline: none;
+    font-size: 0.85rem;
+    padding: 10px;
+}
+
+.sm-inputs {
+    display: flex;
+    gap: 10px;
+
+}
+.input-large-contact {
+    margin-top: 20px;
+    width: 620px;
+    height: 200px;
+    background-color: rgb(231, 225, 225);
+    padding-left: 10px;
+    border: none;
+}
+.contact-btn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #DB4444;
+    color: white;
+    font-size: 0.85rem;
+    margin-left: 420px;
+    margin-top: 20px;
+}

@@ -1,0 +1,77 @@
+.main-header {
+    padding-block: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.main-header h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.main-header ul {
+    display: flex;
+    font-size: 0.85rem;
+    align-items: center;
+    gap: 30px;
+}
+.main-header input {
+    width: 250px;
+    height: 35px;
+    background-color: rgb(247, 244, 244);
+    font-size: 0.85rem;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+}
+.header-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header-icons i {
+    font-size: 1.3rem;
+}
+.fa-magnifying-glass{
+    position: relative;
+    left: -25px;
+    top: 2px;
+}
+.user-img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    transition: 0.2s;
+}
+/* .drop-main {
+    position: relative;
+} */
+.drop-down {
+    display: none;
+    background: linear-gradient(rgb(173, 160, 160), rgb(30, 13, 13), rgb(198, 176, 176));
+    color: white;
+    /* padding: 10px; */
+    min-width: 200px;
+    height: 180px;
+    border-radius: 3px;
+    position: absolute;
+    top: 60px;
+    right: 8px;
+}
+.drop-down ul {
+    display: block;
+}
+.drop-down ul li {
+    padding: 10px;
+}
+i {
+    padding-right: 8px;
+}
+.user-img:hover + .drop-down{
+    display: block;
+    transition: 0.3s;
+
+}
+.user-img:hover .drop-down{
+    display: block;
+}
