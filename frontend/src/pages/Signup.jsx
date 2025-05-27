@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import side_img from '../assets/side_img.png'
 import {Link} from 'react-router-dom'
-import './CSS/Signup.css'
+import './css/Signup.css'
 import {enqueueSnackbar} from 'notistack'
 import axios from 'axios'
 const Signup = () => {
