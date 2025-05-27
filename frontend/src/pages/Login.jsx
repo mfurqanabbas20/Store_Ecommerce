@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import side_img from "../assets/side_img.png";
-import "./CSS/Login.css";
+import "./css/Login.css";
 import axios from 'axios'
 import { enqueueSnackbar } from "notistack";
 import { useNavigate } from "react-router-dom";
