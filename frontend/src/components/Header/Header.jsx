@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-import user_img from "D:/Projects/Ecommerce/frontend/src/assets/user.png";
+import user_img from '../../assets/user.png'
 
 import "./Header.css";
 const Header = () => {
